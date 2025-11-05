@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankit Patel Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Ankit Patel</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button id="theme-toggle">🌓</button>
+
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 id="typed-text"></h1>
+    <p>Full Stack Developer | MCA Student</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="profile-picture">
+      <img src="Ankit3.jpg" alt="Ankit Patel's Profile Picture" width="200" height="200"/>
+    </div>
+    <p>I’m Ankit Patel, an MCA student at United University, passionate about full-stack web development. Skilled in HTML, CSS,
+         JavaScript, React.js, Node.js, Angular.js, Bootstrap, Tailwind CSS, Python, and Java, I have a strong foundation in both front-end and back-end technologies.
+         I build responsive, dynamic web applications and enjoy creating modern digital solutions.</p>
+  </section>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React.js</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Angular.js</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">Tailwind CSS</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+    </div>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-container" id="project-list">
+      <!-- Projects loaded by script.js -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <a href="Ankit Patel Resume.pdf" download class="resume-btn">📄 Download My Resume</a>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ankit Patel. All rights reserved.</p>
+    <div class="social-links">
+      <a href="mailto:apuumca@gmail.com">📧 apuumca@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/ankit-patel-156986260" target="_blank">LinkedIn</a> |
+      <a href="https://www.github.com/ankitmca2024" target="_blank">GitHub</a>
+    </div>
+    <div id="viewerCounter">Viewers: 0</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
